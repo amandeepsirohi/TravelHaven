@@ -1,1 +1,4 @@
-# TravelHaven #Hotel Booking Website
+# TravelHaven
+
+Full stack hotels booking app.
+
