@@ -40,7 +40,7 @@ SECRET_KEY=your_secret_key_for_jwt
 ### Start the server
 ```console
 cd api
-npm start
+nodemon index.js
 ```
 ### Start the client
 ```console
