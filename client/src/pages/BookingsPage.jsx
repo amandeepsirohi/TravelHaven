@@ -18,7 +18,7 @@ export default function BookingsPage() {
   return (
     <div >
       <AccountNav/>
-      <div className="px-[70px] ">
+      <div className="px-[90px] grid grid-cols-2 gap-1">
         {bookings?.length > 0 && bookings.map(booking => (
           <Link to={`/account/bookings/${booking._id}`} className="flex  gap-4 bg-gray-200 mt-10 rounded-2xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] overflow-hidden"> 
             <div className="w-48 ">

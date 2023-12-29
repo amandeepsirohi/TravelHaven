@@ -47,7 +47,7 @@ export default function ProfilePage() {
           <br/>
           <button
             onClick={logout}
-            className="bg-primary w-[15%] mt-2 py-2 px-6 rounded-full text-white">LogOut</button>
+            className="bg-indigo-500 w-[15%] mt-2 py-2 px-6 rounded-full text-white">LogOut</button>
         </div>
       )}
       {subpage === 'places' && (<PlacesPage/>)}

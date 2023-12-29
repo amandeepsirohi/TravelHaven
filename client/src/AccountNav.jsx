@@ -15,7 +15,7 @@ export default function AccountNav() {
     let classes = 'inline-flex py-2 px-6 gap-1 rounded-full';
 
     if (type === subpage) {
-      classes += ' bg-primary text-white';
+      classes += ' bg-indigo-500 text-white';
     } else {
       classes += ' bg-gray-200';
     }

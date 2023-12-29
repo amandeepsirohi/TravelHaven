@@ -28,7 +28,7 @@ export default function Header() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className=" h-6  bg-primary text-white  p-[2px] rounded-full">
+              className=" h-6  bg-indigo-500 text-white  p-[2px] rounded-full">
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -40,7 +40,7 @@ export default function Header() {
 
         <div className="flex justify-center items-center gap-4">
           <div className="flex lg:gap-9 md:gap-3">
-            <span className="mt-[1px] text-slate-700">Aircnc Your Home</span>
+            <span className="mt-[3px] font-semibold text-indigo-900 text-sm">Aircnc Your Home</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"

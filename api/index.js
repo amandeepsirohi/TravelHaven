@@ -25,7 +25,7 @@ app.use('/uploads', express.static(__dirname + '/uploads'));
 
 app.use(cors({credentials: true, origin: 'http://localhost:5173'}))
 
-mongoose.connect(process.env.MONGO_URL);
+mongoose.connect(process.env.MONGO_URL).then(console.log("DB COnnected"));
 
 app.get("/test", (req, res) => {
   res.json("Hello Guys");

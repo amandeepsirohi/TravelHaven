@@ -53,7 +53,7 @@ export default function PhotoUploader({addedPhotos , onChange})
               <button
                 onClick={addPhotoByLink}
                 type="button"
-                className=" flex gap-2 text-white bg-primary font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
+                className=" flex gap-2 text-white bg-indigo-500 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

@@ -177,7 +177,7 @@ export default function PlacesFormPage() {
           </div>
         </div>
         <div className="mt-10 flex justify-center ">
-          <button className="bg-primary text-white rounded-2xl font-[700] px-8 py-4">Save Info</button>
+          <button className="bg-indigo-500 text-white rounded-2xl font-[700] px-8 py-4">Save Info</button>
         </div>
       </form>
     </div>

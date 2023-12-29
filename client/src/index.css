@@ -7,7 +7,7 @@ input[type ="text"] , input[type="password"] , input[type="email"] , input[type=
 }
 
 button.primary {
-    @apply bg-primary w-full my-1 py-2  px-3 rounded-2xl text-white;
+    @apply bg-indigo-500 w-full my-1 py-2  px-3 rounded-2xl text-white;
 }
 
 textarea{
